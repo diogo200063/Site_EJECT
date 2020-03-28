@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+	
+}
+p {
+	color: black;
+	background-color: transparent;
+	font-size: 24px;
+	text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+}
+
+h3 {
+	color: black;
+	text-align: center;
+}
+
+header{
+	background-color: SteelBlue;
+	height: 120px;
+	padding: 20px;
+	text-align: center;
+}
+
+body{
+	background-color: Khaki;
+	text-align: center;
+}
+
+footer{
+	clear: both;
+	background-color: SteelBlue;
+	height: 32px;
+	text-align: center;
+	padding: 10px ;
+}
+
+.container{
+	clear: both;
+	width: 0 auto;
+	margin: 0 auto;
+}
+
+
+#logo{
+	clear: both;
+	float: left;
+}
+
+#menu{
+	float: right;
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+#menu a{
+	padding: 88px 25px;
+	text-decoration: none;
+	color: Khaki;
+}
+
+#menu a:hover{
+	background-color: Khaki;
+	color: SteelBlue;
+}
+
+.banner{
+	clear: both;
+	float: center;
+	background-size: cover;
+	width: 100%;
+    height: 320px;
+}
+
+.sobre{
+	clear: both;
+	text-align: center;
+	padding: 80px 24px;
+	width: 100%;
+    height: 160px;
+}
+.hobbies{
+	clear: both;
+	text-align: center;
+	padding: 80px 24px;
+	width: 100%;
+    height: 200px;
+}
+
+.hobbies img{
+	border: 3px solid black;
+    border-radius: 100px;
+    margin: 25px;
+    padding: 5px;
+    height: 80px;
+    width: 80px;
+}
+.contato{
+	clear: both;
+	text-align: center;
+	padding: 80px 24px;
+	width: 100%;
+    height: 100px;
+}
+
+.insta{
+	margin: 100px;
+}
+
+.wapp{
+	margin: 100px;
+}
+
+.mail{
+	margin: 100px;
+}
