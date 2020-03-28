@@ -11,14 +11,26 @@ p {
 	text-align: justify;
     margin-left: 10%;
     margin-right: 10%;
+    text-indent:2em
+}
+
+li {
+	font-size: 24px;
+	text-align: justify;
+	font-family: helvetica;
+	margin-left: 10%;
+    margin-right: 10%;
+    text-indent:2em
 }
 
 h1 {
+	clear: both;
 	color: black;
 	text-align: center;
 }
 
 h3 {
+	clear: both;
 	color: black;
 	text-align: center;
 }
@@ -33,6 +45,7 @@ header{
 body{
 	background-color: Khaki;
 	text-align: center;
+	width: 100%;
 }
 
 footer{
@@ -48,7 +61,14 @@ footer{
 	width: 0 auto;
 	margin: 0 auto;
 }
-
+.conteudo{
+	background-image: url(https://get.wallhere.com/photo/1920x1200-px-abstract-birds-color-drawing-fantasy-fi-field-landscapes-rocket-SC-umbrella-1495733.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 #logo{
 	clear: both;
@@ -80,33 +100,34 @@ footer{
     height: 320px;
 }
 
-.sobre{
+#sobre{
 	clear: both;
 	text-align: center;
-	padding: 80px 24px;
+	padding: 80px 0px;
 	width: 100%;
-    height: 160px;
+    height: 390px;
 }
-.hobbies{
+#hobbies{
 	clear: both;
 	text-align: center;
-	padding: 80px 24px;
+	padding: 80px 0px;
 	width: 100%;
     height: 200px;
 }
 
-.hobbies img{
+#hobbies img{
 	border: 3px solid black;
     border-radius: 100px;
     margin: 25px;
     padding: 5px;
     height: 80px;
     width: 80px;
+    clear: both;
 }
-.contato{
+#contato{
 	clear: both;
 	text-align: center;
-	padding: 80px 24px;
+	padding: 80px 0px;
 	width: 100%;
     height: 100px;
 }
