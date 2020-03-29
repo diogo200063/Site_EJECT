@@ -50,7 +50,6 @@ header{
 body{
 	background-color: rgb(240, 205, 100);
 	text-align: center;
-	width: 100%;
 }
 
 footer{
@@ -113,7 +112,6 @@ footer{
 #sobre{
 	clear: both;
 	text-align: center;
-	width: 100%;
 	display: block;
 	padding-top: 140px;
 }
@@ -121,13 +119,11 @@ footer{
 #hobbies{
 	clear: both;
 	text-align: center;
-	width: 100%;
-	display: block;
 	padding-top: 20px;
 }
 
 #hobbies img{
-	border: 3px black;
+	border: 3px solid black;
     border-radius: 100px;
     margin: 25px;
     padding: 5px;
