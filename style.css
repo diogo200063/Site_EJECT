@@ -38,7 +38,7 @@ h3 {
 }
 
 header{
-	background-image: url(fan4.png);
+	background-image: url(fan2.png);
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -55,7 +55,7 @@ body{
 
 footer{
 	clear: both;
-	background-color: rgb(59, 158, 177);
+	background-color: rgb(18, 107, 137);
 	height: 32px;
 	text-align: center;
 	padding: 10px ;
@@ -98,7 +98,7 @@ footer{
 
 #menu a:hover{
 	background-color: rgb(240, 205, 100);
-	color: rgb(59, 158, 177);
+	color: rgb(18, 107, 137);
 }
 
 .banner{
