@@ -38,21 +38,24 @@ h3 {
 }
 
 header{
-	background-color: SteelBlue;
-	height: 120px;
+	background-image: url(fan4.png);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	height: 40px;
 	padding: 20px;
 	text-align: center;
 }
 
 body{
-	background-color: Khaki;
+	background-color: rgb(240, 205, 100);
 	text-align: center;
 	width: 100%;
 }
 
 footer{
 	clear: both;
-	background-color: SteelBlue;
+	background-color: rgb(59, 158, 177);
 	height: 32px;
 	text-align: center;
 	padding: 10px ;
@@ -70,7 +73,7 @@ footer{
 }
 
 .conteudo{
-	background-image: url(https://get.wallhere.com/photo/1920x1200-px-abstract-birds-color-drawing-fantasy-fi-field-landscapes-rocket-SC-umbrella-1495733.jpg);
+	background-image: url(fan.png);
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -83,19 +86,19 @@ footer{
 
 #menu{
 	float: right;
-	margin-top: 30px;
+	margin-top: 9px;
 	font-size: 20px;
 }
 
 #menu a{
-	padding: 88px 25px;
+	padding: 24px 25px;
 	text-decoration: none;
-	color: Khaki;
+	color: rgb(240, 205, 100);
 }
 
 #menu a:hover{
-	background-color: Khaki;
-	color: SteelBlue;
+	background-color: rgb(240, 205, 100);
+	color: rgb(59, 158, 177);
 }
 
 .banner{
@@ -104,6 +107,7 @@ footer{
 	background-size: cover;
 	width: 100%;
     height: 320px;
+    padding-top: 100px;
 }
 
 #sobre{
@@ -111,7 +115,7 @@ footer{
 	text-align: center;
 	width: 100%;
 	display: block;
-	padding-top: 60px;
+	padding-top: 140px;
 }
 
 #hobbies{
